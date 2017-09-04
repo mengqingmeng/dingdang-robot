@@ -118,6 +118,7 @@ class Mic:
         """
         self.stop_passive = True
 
+    #被动聆听
     def passiveListen(self, PERSONA):
         """
         Listens for PERSONA in everyday sound. Times out after LISTEN_TIME, so
